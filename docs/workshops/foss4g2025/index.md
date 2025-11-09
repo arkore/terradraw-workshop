@@ -23,18 +23,19 @@ To participate in this workshop, please ensure you have:
 - Basic knowledge of JavaScript and web development
 - Familiarity with web mapping concepts (helpful but not required)
 
-### Workshop Schedule (3.5 hours)
+### Workshop Schedule
 
-| Duration | Section |
-|----------|---------|
-| 25 min | TerraDraw Introduction |
-| 15 min | [Environment Setup](./getting-started.md) |
-| 60 min | [Terra Draw Basics with 3 exercises](./basics/index.md) |
-| 10 min | Break |
-| 60 min | [Advanced Features with 3 exercises](./advanced/index.md) |
-| 10 min | Break |
-| 15 min | [switch maplibre to leaflet](./leaflet.md) |
-| 15 min | [maplibre-gl-terradraw introduction](./maplibre-gl-terradraw.md) |
+Workshop schedule is shown as below to run for 3 hours plus 30 minutes break.
+
+| Time | Duration | Section |
+|----------|----------|---------|
+|09:00-09:25| 25 min | TerraDraw Introduction by James Milner (Online) |
+|09:25-09:40| 15 min | [Environment Setup](./getting-started.md) |
+|09:40-10:30| 50 min | [Terra Draw Basics with 3 exercises](./basics/index.md) |
+|10:30-11:00| 30 min | Break |
+|11:00-12:00| 60 min | [Advanced Features with 3 exercises](./advanced/index.md) |
+|12:00-12:15| 15 min | [switch maplibre to leaflet](./leaflet.md) |
+|12:15-12:30| 15 min | [maplibre-gl-terradraw introduction](./maplibre-gl-terradraw.md) |
 
 TerraDraw introduction slides are available at [FOSS4G Europe 2025 Mostar](https://talks.osgeo.org/foss4g-europe-2025/talk/XHMYBK/).
 
