@@ -4,7 +4,7 @@ Let's create a basic Terra Draw setup with MapLibre GL JS. Update your `src/rout
 
 ## Basic TerraDraw setup
 
-Firstly, we can setup TerraDraw without any UI interaction.
+Firstly, we can setup Terra Draw without any UI interaction.
 
 Open `+page.svelte`, add the following codes in the `<script>` tag section.
 
@@ -34,7 +34,7 @@ onMount(() => {
 
 You can draw a rectangle polygon on the map like below.
 
-![TerraDraw Rectangle Mode without UI interactions](../assets/basics/basic-setup.png)
+![Terra Draw Rectangle Mode without UI interactions](../assets/basics/basic-setup.png)
 
 ### Testing Your Implementation
 
@@ -48,4 +48,4 @@ The above example code is available at [example/without-ui](https://github.com/w
 
 ## What's Next?
 
-Now that you have a working Terra Draw implementation without UI, let's add more TerraDraw modes with UI buttons.
+Now that you have a working Terra Draw implementation without UI, let's add more Terra Draw modes with UI buttons.

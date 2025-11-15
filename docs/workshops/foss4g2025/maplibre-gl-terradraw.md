@@ -1,12 +1,12 @@
-# Maplibre TerraDraw plugin
+# Maplibre Terra Draw plugin
 
-This section will learn a maplibre plugin for easy integration with TerraDraw.
+This section will learn a maplibre plugin for easy integration with Terra Draw.
 
 ## maplibre-gl-terradraw
 
-Through this workshop tutorials of Maplibre and Leaflet, now you have understood how TerraDraw works across different mapping libraries.
+Through this workshop tutorials of Maplibre and Leaflet, now you have understood how Terra Draw works across different mapping libraries.
 
-However, you still need to write quite a lot of codes to bring TerraDraw to your map application.
+However, you still need to write quite a lot of codes to bring Terra Draw to your map application.
 
 maplibre-gl-terradraw is developed for easy integration with maplibre.
 
@@ -30,9 +30,9 @@ const draw = new MaplibreTerradrawControl();
 map.addControl(draw, 'top-left');
 ```
 
-## Supported TerraDraw modes
+## Supported Terra Draw modes
 
-All TerraDraw modes are supported, and additional functionalities (delete, download buttons).
+All Terra Draw modes are supported, and additional functionalities (delete, download buttons).
 
 ## Available controls
 
@@ -48,19 +48,19 @@ There are following three controls available in the plugin.
 
 ![MaplibrevalhallaControl to integrate with Valhalla Routing and Isochrone API](./assets/plugin-valhalla-control.png)
 
-## All TerraDraw APIs are accessible
+## All Terra Draw APIs are accessible
 
-Through the plugin, all TerraDraw APIs are accessible via the plugin contructor and `getTerraDrawInstance` method.
+Through the plugin, all Terra Draw APIs are accessible via the plugin contructor and `getTerra DrawInstance` method.
 
 ```ts
 const drawControl = new MaplibreTerradrawControl({
     modes: ['polygon', 'select', 'delete'], // choose what buttons are needed
     open: true, // set default state either expanded or collapsed
-    modeOptions: // You can pass your own TerraDraw mode options to the plugin to override default setting
+    modeOptions: // You can pass your own Terra Draw mode options to the plugin to override default setting
     adapterOptions: // You can pass your own adapter setting to the plugin
 });
 
-// You can get TerraDraw instance from the plugin to do whatever you want
+// You can get Terra Draw instance from the plugin to do whatever you want
 const draw = drawControl.getTerraDrawInstance()
 // do something
 ```
@@ -69,7 +69,7 @@ const draw = drawControl.getTerraDrawInstance()
 
 Open https://terradraw.water-gis.com/ for the demo of maplibre-gl-terradraw
 
-13 examples are avalable how to configure TerraDraw and the plugin.
+13 examples are avalable how to configure Terra Draw and the plugin.
 
 ## Source code
 

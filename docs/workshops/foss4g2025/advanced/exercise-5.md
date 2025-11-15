@@ -2,9 +2,9 @@
 
 Terra Draw provides comprehensive event handling following the [official events documentation](https://github.com/JamesLMilner/terra-draw/blob/main/guides/6.EVENTS.md).
 
-## TerraDraw Events
+## Terra Draw Events
 
-There are four events `change`, `finish`, `select` and `deselect` are dispatched by TerraDraw.
+There are four events `change`, `finish`, `select` and `deselect` are dispatched by Terra Draw.
 
 You can listen an event through `on` method like so.
 
@@ -18,7 +18,7 @@ draw.on("change", () => {
 
 `change` event returns `ids` and `type`.
 
-- `ids` is the list of TerraDraw feature ID affected for the event
+- `ids` is the list of Terra Draw feature ID affected for the event
 - `type` is the types of change event as described follows.
 
 #### `create` type
@@ -62,7 +62,7 @@ draw.on("change", (ids, type) => {
 ```
 
 !!! note
-    feature is removed from TerraDraw store, so you cannot fetch deleted features by IDs.
+    feature is removed from Terra Draw store, so you cannot fetch deleted features by IDs.
 
 #### `styling` type
 
@@ -82,7 +82,7 @@ draw.on("change", (ids, type) => {
 
 `finish` event is dispatched when a feature finish drawing, and it returns `id` and `context`.
 
-- `id` is the TerraDraw feature ID affected for the event
+- `id` is the Terra Draw feature ID affected for the event
 - `context` is an object containing the following properties.
   - `mode`: modeName of finished feature
   - `action`: there are four actions supported as described follows.
@@ -123,9 +123,9 @@ draw.on("deselect", () => {
 });
 ```
 
-### Check TerraDraw events behaviours
+### Check Terra Draw events behaviours
 
-We are going to add scripts to listen TerraDraw events to monitor how it behaves.
+We are going to add scripts to listen Terra Draw events to monitor how it behaves.
 
 Firstly, add the below script in script tag section.
 
@@ -219,13 +219,13 @@ map.once('load', () => {
 
 1. **Save your changes** and the Vite development server should automatically reload
 1. **Open your browser** to `http://localhost:5173`
-1. **Open console in your browser** to minitor what TerraDraw events are dispatched.
-1. **Drawing features** to check TerraDraw events logs
-1. **Select/Deselect feature** to check how actual GeoJSON looks like in TerraDraw store.
+1. **Open console in your browser** to minitor what Terra Draw events are dispatched.
+1. **Drawing features** to check Terra Draw events logs
+1. **Select/Deselect feature** to check how actual GeoJSON looks like in Terra Draw store.
 
 You should be able to events like below screenshot.
 
-![Monitoring TerraDraw events](../assets/advanced/advanced-event-1.png)
+![Monitoring Terra Draw events](../assets/advanced/advanced-event-1.png)
 
 ### Example code
 

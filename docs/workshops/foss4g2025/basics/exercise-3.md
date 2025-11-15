@@ -16,7 +16,7 @@ import {
 } from 'terra-draw';
 ```
 
-Then, `TerraDrawSelectMode` needs to be added to `modes` through TerraDraw constructor.
+Then, `TerraDrawSelectMode` needs to be added to `modes` through Terra Draw constructor.
 
 ```ts
 draw = new TerraDraw({
@@ -127,4 +127,4 @@ The above example code is available at [example/with-select-mode](https://github
 
 ## What's Next?
 
-Now you can select or modify features and learned basics of TerraDraw implementation. Let's start learning more advanced features in the next step.
+Now you can select or modify features and learned basics of Terra Draw implementation. Let's start learning more advanced features in the next step.

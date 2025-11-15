@@ -304,7 +304,7 @@ You only need to change `<script>` tag section. The below is how you can change 
 </script>
 ```
 
-You can see the change is really minumum and everything can work without changing anything on TerraDraw side.
+You can see the change is really minumum and everything can work without changing anything on Terra Draw side.
 
 ![Leaflet for the exercise 6](./assets/leaflet.png)
 
@@ -338,6 +338,6 @@ The above example code is available at [example/leaflet](https://github.com/wate
 
 ## What's Next?
 
-Now, you know how TerraDraw's unified API works across different mappling library through an example of Leaflet integration.
+Now, you know how Terra Draw's unified API works across different mappling library through an example of Leaflet integration.
 
 In the next step, I am going to introduce a maplibre plugin developed particularly for maplibre intergration easily.

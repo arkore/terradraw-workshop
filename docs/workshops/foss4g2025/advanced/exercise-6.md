@@ -2,7 +2,7 @@
 
 Terra Draw provides powerful data management capabilities following the [official store documentation](https://github.com/JamesLMilner/terra-draw/blob/main/guides/2.STORE.md).
 
-## Add GeoJSON features to TerraDraw store
+## Add GeoJSON features to Terra Draw store
 
 You can add features programmatically by using `draw.addFeatures`:
 
@@ -28,13 +28,13 @@ draw?.addFeatures([
 ```
 
 !!! note
-    `mode` property must exist in GeoJSON properties and corresponding mode must be added to TerraDraw in advance.
+    `mode` property must exist in GeoJSON properties and corresponding mode must be added to Terra Draw in advance.
 
 ![Show initial data at Auckland University of Technology on the map](../assets/advanced/advanced-initial-data.png)
 
-## Get features from TerraDraw store
+## Get features from Terra Draw store
 
-In the last exercise 5, we already used to fetch feature from TerraDraw store.
+In the last exercise 5, we already used to fetch feature from Terra Draw store.
 
 ```ts
 // get all features from store
@@ -84,6 +84,6 @@ The above example code is available at [example/data-management](https://github.
 
 ## What's Next?
 
-Now, you have mastered most core functionalities of TerraDraw with Maplibre GL JS.
+Now, you have mastered most core functionalities of Terra Draw with Maplibre GL JS.
 
-In the next step, we are going to learn how Leaflet - one of the most popular mapping library, integrated with TerraDraw.
+In the next step, we are going to learn how Leaflet - one of the most popular mapping library, integrated with Terra Draw.

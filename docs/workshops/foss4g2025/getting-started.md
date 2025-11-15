@@ -82,7 +82,7 @@ Press `ctrl+c` to terminate local server.
 
 Official documentation how to setup a ScelteKit project can be found at https://svelte.dev/docs/kit/creating-a-project.
 
-### Setup Maplibre and TerraDraw
+### Setup Maplibre and Terra Draw
 
 Open `terradraw-workshop-template` project on your vscode, and open a terminal.
 

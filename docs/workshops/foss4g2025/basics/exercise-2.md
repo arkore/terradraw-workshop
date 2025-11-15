@@ -1,4 +1,4 @@
-# Exercise 2: TerraDraw implementation with UI interactions
+# Exercise 2: Terra Draw implementation with UI interactions
 
 Let's create a basic Terra Draw setup with more modes and UI buttons. Update your `src/routes/+page.svelte`:
 
@@ -74,7 +74,7 @@ You can draw a point, a line and a polygon after clicking the button. Click `cle
 1. **Test drawing** - click corresponding buttons to create points, lines and polygons
 1. **Remove features** - click `clear` button to remove features.
 
-If you have time, please also try to add other TerraDraw modes to the example.
+If you have time, please also try to add other Terra Draw modes to the example.
 
 ### Example code
 

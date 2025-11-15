@@ -53,14 +53,14 @@ The `TerraDrawSelectMode` allows for the selection and manipulation of features 
 Modes are instantiated like so:
 
 ```ts
-const polygonMode = new TerraDrawPolygonMode();
+const polygonMode = new Terra DrawPolygonMode();
 const rectangleMode = new TerraDrawRectangleMode();
 const renderMode = new TerraDrawRenderMode({
   modeName: "auniquename",
 });
 ```
 
-Currently the following drawing modes are supported by TerraDraw.
+Currently the following drawing modes are supported by Terra Draw.
 
 | Mode | Class | Mode Name |
 | --- | --- | -- |
@@ -78,9 +78,9 @@ Currently the following drawing modes are supported by TerraDraw.
 
 See the [Modes](https://github.com/JamesLMilner/terra-draw/blob/main/guides/4.MODES.md) section in official documentation.
 
-## Setup TerraDraw
+## Setup Terra Draw
 
-You can install the TerraDraw into your project like so:
+You can install the Terra Draw into your project like so:
 
 ```bash
 npm install terra-draw
