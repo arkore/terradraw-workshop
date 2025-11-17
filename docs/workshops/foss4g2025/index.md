@@ -37,7 +37,7 @@ Workshop schedule is shown as below to run for 3 hours plus 30 minutes break.
 |12:00-12:15| 15 min | [switch maplibre to leaflet](./leaflet.md) |
 |12:15-12:30| 15 min | [maplibre-gl-terradraw introduction](./maplibre-gl-terradraw.md) |
 
-Terra Draw introduction slides are available at [FOSS4G Europe 2025 Mostar](https://talks.osgeo.org/foss4g-europe-2025/talk/XHMYBK/).
+Terra Draw introduction slides by James are available at [Google Slides](https://docs.google.com/presentation/d/1gM79xQqvlTI1mutdzxzIsXeklPjVcCkdwim8E9-5Oo0).
 
 ### Workshop materials
 
